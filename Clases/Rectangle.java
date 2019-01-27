@@ -59,8 +59,9 @@ public class Rectangle {
 
     }
 
-     
-
+     //crear una clase estudante--nombre--año de nacimieto y constante(año actual)--crear 2 metods
+//calcular edad y nombre
+//crear un objeto que pina nombre y año y lo guarde-- despues que imprima 
 
 
 
