@@ -4,6 +4,11 @@ public class Circle{
     double length ; 
     double perimeter ; 
     double width ; 
+
+
+
+
+
     //metodos 
     public void calcArea (){
         area=Math.PI * Math.pow ((width / 2),2) ;  
@@ -47,3 +52,5 @@ public class Circle{
         System.out.println ("el perimetro  del circulo3 es:" +circle3.getPerimeter()) ;
     }
 }
+
+

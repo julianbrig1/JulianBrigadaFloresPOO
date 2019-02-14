@@ -1,3 +1,4 @@
+import java.util.Scanner ; 
 public class Password2 {
     //atributos 
     private int longitud ; 
@@ -43,3 +44,5 @@ public static void main(String[] args) {
 }
 
 }
+
+
