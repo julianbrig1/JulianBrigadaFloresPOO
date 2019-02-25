@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Palindromo",
+            "request": "launch",
+            "mainClass": "Palindromo",
+            "projectName": "Clases_12bbaa5f"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Persona",
             "request": "launch",
             "mainClass": "Persona",
