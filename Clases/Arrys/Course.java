@@ -15,6 +15,12 @@ public class Course
     numberOfStudents=numberOfStudents+1;
   }
   
+  public void deletStudent(String student)
+  {
+    students[numberOfStudents] = student;
+    numberOfStudents=numberOfStudents-1;
+  }
+
   public String[] getStudents()
   {
     return students;
@@ -72,6 +78,12 @@ public class Course
 
         case 5 : 
           System.out.println("que estudiante desea eliminar ") ; 
+          String rr = scanner.next();
+           c.deletStudent(rr);
+          for(int i = 0; i< c.getNumberOfStudents(); i++){
+            if(rr.equals(c.students[i])) ; 
+          }
+          //c.students[i] = "";
         break ; 
 
         default:
